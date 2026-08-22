@@ -47,15 +47,15 @@ export function NavSideBar({ onClose }: NavSideBarProps) {
                     </li>
 
                     <li className="link">
-                        <Link href="/register" onClick={onClose}>
-                            <i className="bi bi-door-open-fill"></i>
+                        <Link href="/registration" onClick={onClose}>
+                            <i className="bi bi-person-circle"></i>
                             Register
                         </Link>
                     </li>
 
                     <li className="link">
                         <Link href="/login" onClick={onClose}>
-                            <i className="bi bi-door-open-fill"></i>
+                            <i className="bi bi-person-circle"></i>
                             Login
                         </Link>
                     </li>
