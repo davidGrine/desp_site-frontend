@@ -169,3 +169,51 @@ nav div ul li {
   padding: 10px;
   border-radius: 10px;
 }
+
+.registration-form {
+  background-color: var(--background-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 1000px;
+  gap: 20px;
+}
+
+.registration-form input {
+  background-color: var(--posts-background-color);
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  min-width: 600px;
+}
+
+.registration-form button {
+  background-color: var(--buttons-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 30;
+} 
+
+.registration-form button:hover {
+  background-color: var(--buttons-hover-color);
+}
+
+.registration-form p {
+  color: var(--secondary-text-color);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.registration-form h1 {
+  color: var(--primary-text-color);
+  font-size: 60px;
+  margin-bottom: 20px;
+}
